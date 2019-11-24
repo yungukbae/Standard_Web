@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*reset*/
+
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table,
+th, td, tr, textarea, button, form{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    
+    color: #222;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    color: #849;
+
+}
+
+
+/*font-reset*/
+
+body, input, textarea, select, button, table{
+    
+    font-family:'Nanum Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    color: #222; font-size: 13px; line-height: 1.5;
+    
+}
+
+/*font-style reset*/
+em, address{font-style: normal;}
+
+
+
+/*blit reset*/
+dl, ul, li, ol,menu{
+    
+    list-style: none;
+    
+}
+
+
+/*title reset*/
+h1,h2,h3,h4,h5,h6{font-size: 13px; color: #222; font-weight: normal;}
+
+
+/*layout reset*/
+img, fieldset{border:0 none;}
+
+/*btn reset*/
+button{border: 0;}
+
+/*header_icon IR effect*/
+
+
+/*의미있는 이미지의 대체 텍스트를 제공하는 경우*/
+
+.ir_pm{ 
+    
+    display: block; overflow: hidden; font-size: 0; line-height: 0; text-align: ;
+
+}
+
+
+/*의미있는 이미지의 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때*/
+
+.ir_wa{
+    
+    display: block; overflow: hidden; position: relative; z-index: -1; width: 100%; height: 100%;
+    
+}
+
+
+/*대체 텍스트가 아닌 접근성을 위한 숨긴 텍스트를 제공할 때*/
+.ir_su{ 
+
+    overflow: hidden; position: absolute; width 0px; height: 0px; line-height: 0; text-indent: -9999px;
+
+}
+
+
+
+
+
+
