@@ -1,1 +1,2 @@
-웹 표준 학습!!
+Web Standard Study
+2020.03.28
