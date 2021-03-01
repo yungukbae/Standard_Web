@@ -1,2 +1,2 @@
-Web Standard Study
+Standard Web Study
 2020.03.28
